@@ -32,6 +32,7 @@ public class ShowCircle extends Application {
      * JavaFX support. Not needed for running from the command line.
      */
     public static void main(String[] args) {
+
         launch(args);
     }
 }

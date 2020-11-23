@@ -1,4 +1,3 @@
-
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import javafx.scene.layout.Pane;
@@ -131,10 +130,6 @@ public class ClockPane extends Pane {
     }
 
     public static void main(String[] args) {
-        launch(args);
-    }
-
-    private static void launch(String[] args) {
-
+        setCurrentTime();
     }
 }

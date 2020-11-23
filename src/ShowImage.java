@@ -13,7 +13,7 @@ public class ShowImage extends Application {
         // Create a pane to hold the image views
         Pane pane = new HBox(10);
         pane.setPadding(new Insets(5, 5, 5, 5));
-        Image image = new Image("image/us.gif");
+        Image image = new Image("image/JavaFx.png");
         pane.getChildren().add(new ImageView(image));
 
         ImageView imageView2 = new ImageView(image);
@@ -35,7 +35,7 @@ public class ShowImage extends Application {
     /**
      * The main method is only needed for the IDE with limited
      * JavaFX support. Not needed for running from the command line.
-     */
+*/
     public static void main(String[] args) {
         launch(args);
     }
